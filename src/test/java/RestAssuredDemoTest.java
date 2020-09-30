@@ -10,7 +10,7 @@ import model.MessageReq;
 import org.junit.Test;
 
 
-public class RestAssuredDemo {
+public class RestAssuredDemoTest {
     RequestSpecification requestSpec = new RequestSpecBuilder()
             .log(LogDetail.ALL)
             .addFilter(new AllureRestAssured())
