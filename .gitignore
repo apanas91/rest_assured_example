@@ -1,0 +1,15 @@
+target
+.idea
+.allure
+allure-results
+log
+
+syntax: glob
+*.iml
+*.iws
+*.ipr
+*.log
+*.lck
+*.epoch
+*.out
+*/target
